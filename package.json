@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .ts ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.6.0",
     "@types/node": "^20.14.10",
+    "eslint": "9.x",
     "git-commit-msg-linter": "^5.0.8",
-    "typescript": "^5.5.3"
+    "globals": "^15.8.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.15.0"
   }
 }
