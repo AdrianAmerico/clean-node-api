@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --ext .ts .",
     "test": "jest",
-    "lint": "eslint --ext .ts ."
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "globals": "^15.8.0",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.4",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.3",
     "typescript-eslint": "^7.15.0"
   }
